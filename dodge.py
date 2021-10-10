@@ -2,10 +2,11 @@
 import RPi.GPIO as GPIO
 import time
 
-#adjust this to make the rover move straight
+#adjust this to make the rover move straight 
+
 
 pwm = 10
-cdc = 25
+cdc = 15
 
 right_forward = 22
 right_backward = 27
@@ -109,3 +110,5 @@ def run():
     stop()
 
 run()
+
+
